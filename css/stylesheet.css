@@ -1,0 +1,65 @@
+html
+{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+html body
+{
+    height: 100%;
+} 
+
+body
+{
+    font-family: "Gill Sans", sans-serif;   
+}
+
+/*--------Header Logo Image--------*/
+
+
+
+/*---------Buttons-----------*/
+
+ul
+{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-around;
+}
+
+nav a
+{
+    color:#d4af37;
+    text-decoration: none;
+    background: black;
+    padding:15px 20px;
+    transition:.5s ease;
+    border: 2px double #d4af37;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: .25em;
+    display: block;
+    border-radius: 0;
+    position: relative;
+    box-shadow: black 2px;
+}
+
+nav a:hover, nav a:active
+{
+    color: black;
+    border: 2px double black;
+    background:rgba(212, 175, 55, .8);
+    font: weight 100px;
+}
+
+a
+{
+    text-decoration: none;
+}
