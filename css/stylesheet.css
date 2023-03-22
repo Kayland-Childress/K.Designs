@@ -25,6 +25,11 @@ body
 
 /*--------Header Logo Image--------*/
 
+figure.logo img
+{
+    width: 200px;
+    height: auto;
+}
 header
 {
     display: flex;
@@ -32,20 +37,20 @@ header
     justify-content: left;
     margin: 0;
     background:rgba(212, 175, 55, .8);
-    border-bottom: 2px solid black;
-      
+    margin-left: 15%;
+    margin-right: 15%;  
 }
 
 h1
 {
-    display: flex;
+    
     text-transform: uppercase;
     font-weight: 100;
-    font: size 2.5em;em;
+    font: size 2.5em;
     letter-spacing: .25em;
     padding-left: 10px;
-    align-items:center;
-    justify-content: center;
+    align-items: right;
+    justify-content: right;
 }
 
 header h1
@@ -72,6 +77,9 @@ nav
 {
     padding: 5px 5px;
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 nav a
@@ -94,7 +102,6 @@ nav a:hover, nav a:active
 {
     color: #d4af37;
     border: 2px double #d4af37;
-    /*background:rgba(212, 175, 55, .8);*/
     font: weight 100px;
 }
 
@@ -104,12 +111,6 @@ a
 }
 
 /*-----------Picture of Me-------*/
-
-/*#article .profile .me img
-{
-    width: 300px;
-    height: auto;
-}*/
 
 #article
 {
