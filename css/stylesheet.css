@@ -13,7 +13,7 @@ body
 {
     font-family: "Gill Sans", sans-serif; 
     Margin: auto;
-    background-color:#d4af37;  
+    background-color:#921fa1;  
     background-image: url("../img/white.jpg");
     color: black;
     padding-top: 20px;
@@ -36,7 +36,7 @@ header
     align-items: left;
     justify-content: left;
     margin: 0;
-    background:rgba(212, 175, 55, .8);
+    background:rgba(114, 31, 103, 0.8);
     margin-left: 15%;
     margin-right: 15%;  
 }
@@ -100,8 +100,8 @@ nav a
 
 nav a:hover, nav a:active
 {
-    color: #d4af37;
-    border: 2px double #d4af37;
+    color: #721f67;
+    border: 2px double #721f67;
     font: weight 100px;
 }
 
@@ -117,8 +117,22 @@ a
     display:flex;
     justify-content: space-between;
     flex-direction:row;
-    border: bottom 2px solid #000000;
     padding-bottom:2.9rem; 
+}
+
+section#articles .post
+{
+    background: #181c1f;
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 4px double #721f67;
+}
+
+.post h3 p
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 #article div.container
@@ -141,7 +155,7 @@ a
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
-div.container figure img
+div.container article.post figure img 
 {
     display: flex;
     border:2px solid #000000;
@@ -151,5 +165,6 @@ div.container figure img
     height: auto;
     align-items: center;
     justify-content: center;
+    
 }
 
